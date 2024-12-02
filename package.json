@@ -12,9 +12,16 @@
     "@swc/helpers": "~0.5.11",
     "nx": "20.1.4",
     "tslib": "^2.3.0",
-    "typescript": "~5.5.2"
+    "typescript": "~5.5.2",
+    "azure-functions-core-tools": "^4.x",
+    "@types/node": "18.x",
+    "rimraf": "^5.0.0"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "@azure/functions": "^4.0.0",
+    "tsconfig-paths": "^4.2.0"
+  }
 }
